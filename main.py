@@ -1,11 +1,11 @@
 import streamlit as st
 import pandas as pd
 
-st.write('hello world')
+st.write('Number of Talks Watched')
 
 st.write(pd.DataFrame({
-    'first column': [1, 2, 3, 4],
-    'second column': [10, 20, 30, 40]
+    'Levi': [10],
+    'Phill': [5],
+    'Oli': [1]
 }))
 
-st.write('yo')
